@@ -20,7 +20,7 @@ This application is an event management platform where users can create, edit, a
   - [Run the Application](#4-run-the-application)
 - [API Endpoints](#api-endpoints)
   - [User Authentication](#user-authentication)
-  - [Event Management](#EventManagement)
+  - [Event Management](#Event-management)
 - [Usage](#usage)
 - [Live Link](#live-link)
 - [Contact](#contact)
