@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import Button from "../components/reUsable/Button";
-import publicPage from "../assets/HomePage.jpg";
+import publicPage from "../assets/HomePage1.png";
 
 export const HomePage = () => {
   const navigate = useNavigate();

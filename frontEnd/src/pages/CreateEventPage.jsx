@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { Layout } from "../components/layout/PageLayout";
 import { EventForm } from "../components/events/EventForm";
-import eventOne from "../assets/eventOne.jpg";
+import first from "../assets/first.png";
 import { Success } from "../helpers/popup";
 
 export const CreateEventPage = () => {
@@ -17,7 +17,7 @@ export const CreateEventPage = () => {
       <div
         className=" border bg-cover bg-center h-full pb-12 rounded-md"
         style={{
-          backgroundImage: `url(${eventOne})`,
+          backgroundImage: `url(${first})`,
         }}
       >
         <EventForm onSubmit={handleCreate} />

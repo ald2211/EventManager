@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { LoginForm } from "../components/auth/LoginForm";
 import { useAuth } from "../hooks/useAuth";
 import { Link } from "react-router-dom";
-import login from "../assets/login.jpg";
+import login from "../assets/loginPage.png";
 import { Success } from "../helpers/popup";
 
 export const LoginPage = () => {

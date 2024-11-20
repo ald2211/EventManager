@@ -24,7 +24,7 @@ export const EventForm = ({ event, onSubmit }) => {
         resetForm();
       } catch (err) {
         formik.setErrors({ submit: err.message || "Submission failed" });
-        Failed(err.message || "Submission failed")
+        Failed(err.message || "Submission failed");
       } finally {
         setSubmitting(false);
       }
@@ -125,12 +125,18 @@ export const EventForm = ({ event, onSubmit }) => {
             </div>
             <button
               type="submit"
-              className={`btn btn-primary w-full ${
-                isSubmitting ? "loading" : ""
+              className={`relative inline-flex items-center justify-center w-full px-4 py-4 text-base font-semibold text-white transition-all duration-200 border border-transparent rounded-md bg-gradient-to-r from-fuchsia-600 to-blue-600 focus:outline-none hover:opacity-80 focus:opacity-80 ${
+                isSubmitting ? "opacity-80" : ""
               }`}
               disabled={isSubmitting}
             >
-              {isSubmitting ? "" : event ? "Update Event" : "Create Event"}
+              {isSubmitting ? (
+                <span className="absolute w-5 h-5 border-4 border-white border-t-transparent rounded-full animate-spin p-2"></span>
+              ) : event ? (
+                "Update Event"
+              ) : (
+                "Create Event"
+              )}
             </button>
           </form>
         </div>

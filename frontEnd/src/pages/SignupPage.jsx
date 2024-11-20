@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../hooks/useAuth';
 import { SignupForm } from '../components/auth/SignupForm';
-import loginPageImg from '../assets/login.jpg'
+import loginPageImg from '../assets/loginPage.png'
 import { Link } from 'react-router-dom';
 import { Success } from '../helpers/popup';
 

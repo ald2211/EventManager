@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { Layout } from "../components/layout/PageLayout";
 import { EventForm } from "../components/events/EventForm";
 import { getEvent } from "../api/events";
-import eventOne from "../assets/eventOne.jpg";
+import first from "../assets/first.png";
 import { Success } from "../helpers/popup";
 
 export const EditEventPage = () => {
@@ -60,7 +60,7 @@ export const EditEventPage = () => {
       <div
         className=" border bg-cover bg-center h-full pb-12 rounded-md"
         style={{
-          backgroundImage: `url(${eventOne})`,
+          backgroundImage: `url(${first})`,
         }}
       >
         {event ? (
