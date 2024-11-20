@@ -11,7 +11,7 @@ This application is an event management platform where users can create, edit, a
 - [Overview](#overview)
 - [Features and Functionalities](#features-and-functionalities)
   - [User Authentication](#1-user-authentication)
-  - [Event Management](#2-image-management)
+  - [Event Management](#2-Event-management)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
   - [Clone the Repository](#1-clone-the-repository)
