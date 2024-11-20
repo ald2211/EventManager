@@ -86,7 +86,7 @@ Create a `.env` file in the root folder with the following content:
 - **MONGO_URI**: Your MongoDB Atlas URI
 - **PORT**: your port
 - **JWT_SECRET**: Your JWT Secret
-- - **BASE_URL**: Your base url
+- **BASE_URL**: Your base url
 
 ### 4. Run the application
 
