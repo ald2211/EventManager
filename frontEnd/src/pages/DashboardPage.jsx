@@ -5,7 +5,7 @@ import { Layout } from "../components/layout/PageLayout";
 import { useAuth } from "../hooks/useAuth";
 import { BeatLoader } from "react-spinners";
 import { Success } from "../helpers/popup";
-import DashBoardHeader from "../components/events/DashBoardHeader";
+import DashBoardHeader from "../components/events/DashHeader";
 import EventFilters from "../components/events/EventFilters";
 import { EventCard } from "../components/events/EventCard";
 import Pagination from "../components/events/Pagination";
