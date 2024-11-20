@@ -12,7 +12,7 @@ const __dirname = path.resolve()
 dotenv.config()
 const app = express()
 
-app.use(cors())
+app.use(cors({origin:'https://eventmanager-7zl1.onrender.com'}))
 
 connectDB()
 
