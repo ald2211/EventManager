@@ -2,7 +2,7 @@
 
 ### Event Management Application
 
-[**Live Application Link**](https://stockimage-platform.onrender.com/)
+[**Live Application Link**](https://eventmanager-7zl1.onrender.com/)
 
 This application is an event management platform where users can create, edit, and delete events.
 
@@ -121,8 +121,8 @@ npm start
 
 ## Live Link
 
-You can access the live version of the application at [Live Application Link]()
-not yet configured
+You can access the live version of the application at [Live Application Link](https://eventmanager-7zl1.onrender.com/)
+
 
 
 ## Contact
