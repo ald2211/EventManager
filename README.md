@@ -11,8 +11,7 @@ This application is an event management platform where users can create, edit, a
 - [Overview](#overview)
 - [Features and Functionalities](#features-and-functionalities)
   - [User Authentication](#1-user-authentication)
-  - [Event Management](#2-image-management)
-  - [Image Rearrangement](#3-image-rearrangement)
+  - [Event Management](#2-Event-management)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
   - [Clone the Repository](#1-clone-the-repository)
@@ -21,8 +20,7 @@ This application is an event management platform where users can create, edit, a
   - [Run the Application](#4-run-the-application)
 - [API Endpoints](#api-endpoints)
   - [User Authentication](#user-authentication)
-  - [Image Management](#image-management)
-  - [Reset Password](#reset-password)
+  - [Event Management](#Event-management)
 - [Usage](#usage)
 - [Live Link](#live-link)
 - [Contact](#contact)
@@ -123,7 +121,8 @@ npm start
 
 ## Live Link
 
-You can access the live version of the application at [Live Application Link](https://stockimage-platform.onrender.com/)
+You can access the live version of the application at [Live Application Link]()
+not yet configured
 
 
 ## Contact
