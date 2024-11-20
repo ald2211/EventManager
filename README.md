@@ -2,7 +2,7 @@
 
 ### Event Management Application
 
-[**Live Application Link**](https://stockimage-platform.onrender.com/)
+[**Live Application Link**](https://eventmanager-7zl1.onrender.com/)
 
 This application is an event management platform where users can create, edit, and delete events.
 
@@ -86,7 +86,7 @@ Create a `.env` file in the root folder with the following content:
 - **MONGO_URI**: Your MongoDB Atlas URI
 - **PORT**: your port
 - **JWT_SECRET**: Your JWT Secret
-- - **BASE_URL**: Your base url
+- **BASE_URL**: Your base url
 
 ### 4. Run the application
 
@@ -121,8 +121,8 @@ npm start
 
 ## Live Link
 
-You can access the live version of the application at [Live Application Link]()
-not yet configured
+You can access the live version of the application at [Live Application Link](https://eventmanager-7zl1.onrender.com/)
+
 
 
 ## Contact
