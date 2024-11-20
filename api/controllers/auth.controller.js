@@ -5,8 +5,8 @@ import { errorHandler } from "../utils/customError.js";
 
 // Register
 export const register = async (req, res, next) => {
-  const { email, password } = req.body;
   try {
+    const { email, password } = req.body;
     let user = await User.findOne({ email });
     if (user) return next(errorHandler(400, "Email already registered"));
 
@@ -42,8 +42,8 @@ export const register = async (req, res, next) => {
 
 // Login
 export const login = async (req, res, next) => {
-  const { email, password } = req.body;
   try {
+    const { email, password } = req.body;
     let user = await User.findOne({ email });
     if (!user) return next(errorHandler(400, "Invalid credentials"));
 

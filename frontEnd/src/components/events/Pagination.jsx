@@ -1,4 +1,6 @@
-export const Pagination = ({ currentPage, onPageChange, hasMore, isLoading }) => (
+
+const Pagination = ({ currentPage, onPageChange, hasMore, isLoading }) => {
+  return (
     <div className="flex justify-center gap-2 mt-4">
       <button
         className="btn btn-outline"
@@ -16,4 +18,6 @@ export const Pagination = ({ currentPage, onPageChange, hasMore, isLoading }) =>
       </button>
     </div>
   );
-  
+};
+
+export default Pagination;

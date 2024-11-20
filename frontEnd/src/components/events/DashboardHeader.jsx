@@ -1,4 +1,5 @@
-export const DashboardHeader = ({ user }) => (
+const DashBoardHeader = ({ user }) => {
+  return (
     <div className="flex flex-col items-center justify-center mb-8">
       <h1 className="text-3xl md:text-5xl font-extrabold text-gray-800 text-center mb-4">
         Welcome, <span className="text-blue-500">{user}</span>!
@@ -9,4 +10,6 @@ export const DashboardHeader = ({ user }) => (
       </p>
     </div>
   );
-  
+};
+
+export default DashBoardHeader;

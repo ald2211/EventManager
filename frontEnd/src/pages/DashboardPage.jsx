@@ -5,10 +5,11 @@ import { Layout } from "../components/layout/PageLayout";
 import { useAuth } from "../hooks/useAuth";
 import { BeatLoader } from "react-spinners";
 import { Success } from "../helpers/popup";
-import { DashboardHeader } from "../components/events/DashBoardHeader";
-import { EventFilters } from "../components/events/EventFilters";
+import DashBoardHeader from "../components/events/DashBoardHeader";
+import EventFilters from "../components/events/EventFilters";
 import { EventCard } from "../components/events/EventCard";
-import { Pagination } from "../components/events/Pagination";
+import Pagination from "../components/events/Pagination";
+
 
 
 const Dashboard = () => {
@@ -69,7 +70,7 @@ const Dashboard = () => {
 
   return (
     <Layout>
-      <DashboardHeader user={user} />
+      <DashBoardHeader user={user} />
       <div className="max-w-4xl mx-auto p-4">
         <EventFilters
           searchTerm={searchTerm}
