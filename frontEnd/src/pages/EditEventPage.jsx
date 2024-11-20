@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { Layout } from "../components/layout/layout";
+import { Layout } from "../components/layout/PageLayout";
 import { EventForm } from "../components/events/EventForm";
 import { getEvent } from "../api/events";
 import eventOne from "../assets/eventOne.jpg";

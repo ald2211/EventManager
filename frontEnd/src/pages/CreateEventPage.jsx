@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { Layout } from "../components/layout/layout";
+import { Layout } from "../components/layout/PageLayout";
 import { EventForm } from "../components/events/EventForm";
 import eventOne from "../assets/eventOne.jpg";
 import { Success } from "../helpers/popup";

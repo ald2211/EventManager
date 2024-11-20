@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { deleteEvent, fetchUserEvents } from "../api/events";
 import { useNavigate } from "react-router-dom";
-import { Layout } from "../components/layout/layout";
+import { Layout } from "../components/layout/PageLayout";
 import { useAuth } from "../hooks/useAuth";
 import { BeatLoader } from "react-spinners";
 import { Success } from "../helpers/popup";
