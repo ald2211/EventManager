@@ -22,12 +22,13 @@ export const LoginPage = () => {
         <div className="relative flex items-end px-4 pb-10 pt-60 sm:pb-16 md:justify-center lg:pb-24 bg-gray-50 sm:px-6 lg:px-8">
           <div className="absolute inset-0">
             <img
-              className="object-cover object-top w-full h-full"
+              className="object-cover object-top w-full h-screen"
               src={login}
-              alt=""
+              alt="login page image"
+              loading="lazy" 
             />
           </div>
-          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent h-screen"></div>
 
           <div className="relative">
             <div className="w-full max-w-xl xl:w-full xl:mx-auto xl:pr-24 xl:max-w-xl">
